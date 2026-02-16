@@ -1,1 +1,9 @@
-# hello
+## **Pyhton Assignment + Project**
+
+#### This repository contains python assignment questions file ( Assignment-Questions.py ) and python project file ( Print-Bill-Project.py ).
+
+## **Project Introduction :**
+
+This project is a HMS (customer Bill Printing + add new menu with price ) developed using Python and SQL Server. It allows hotel staff to manage menu items, take customer orders, and generate bills efficiently. The system uses Object-Oriented Programming (OOP) concepts (Class, Inheritance) and connects to a database using pyodbc for data storage.
+
+This project helps automate hotel billing operations and reduces manual errors.
