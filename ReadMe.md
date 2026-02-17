@@ -16,6 +16,13 @@ This Project allows users to manage hotel menus, take customer orders,Print Bill
 The system automatically calculates bills and enables printing customer-wise bills from stored data.
 It uses object-oriented programming with database connectivity for real-time data handling.
 
+following are the functionality of Hotel staff and customer
+
+1. Show Menu
+2. Add New Menu
+3. Take Order
+4. print Bill
+5. Exit
 
 ## Input-Output Screens
 
