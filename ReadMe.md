@@ -1,4 +1,4 @@
-## **Pyhton Assignment + Project**
+## ** Assignment + Project**
 
 #### This repository contains python assignment questions file ( Assignment-Questions.py ) and python project file ( Print-Bill-Project.py ).
 
@@ -19,6 +19,7 @@ It uses object-oriented programming with database connectivity for real-time dat
 following are the functionality of Hotel staff and customer
 
 1. Show Menu
+    This function is used to show all menu/items available in database with price 
 2. Add New Menu
 3. Take Order
 4. print Bill
