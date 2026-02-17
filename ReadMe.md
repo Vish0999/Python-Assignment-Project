@@ -27,13 +27,3 @@ It uses object-oriented programming with database connectivity for real-time dat
 1) Database Connection To SQL Server
 ![alt text](image-1.png)
 
-
-2) Customer/ Hotel staff functionality :
-![alt text](image-2.png)
-
-3) Show Menu :
-    1) CMD terminal output : 
-        ![alt text](image-3.png)
-
-    2) database table : 
-        ![alt text](image-4.png)
