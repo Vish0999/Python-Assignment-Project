@@ -23,7 +23,5 @@ It uses object-oriented programming with database connectivity for real-time dat
 ![alt text](image.png)
 
 
-### Project Input-Output screens :
-1) Database Connection To SQL Server
-![alt text](image-1.png)
+
 
