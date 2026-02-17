@@ -1,4 +1,4 @@
-## ** Assignment + Project**
+## **Python Assignment + Project**
 
 #### This repository contains python assignment questions file ( Assignment-Questions.py ) and python project file ( Print-Bill-Project.py ).
 
