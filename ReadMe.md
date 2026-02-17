@@ -1,6 +1,6 @@
 ## **Python Assignment + Project**
 
-#### This repository contains python assignment questions file ( Assignment-Questions.py ) and python project file ( Print-Bill-Project.py ).
+#### This repository contains python assignment questions file ( Assignment-Questions.py and List-Comprehsion-lambda.py ) and python project file ( Print-Bill-Project.py ).
 
 ## **Project Introduction :**
 
