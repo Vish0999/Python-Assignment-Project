@@ -26,7 +26,7 @@ It uses object-oriented programming with database connectivity for real-time dat
 5. Exit
 
 
-### Class include in project :
+### Various classes used in project :
 1) Class Database :
 This class use for database connection. It is super class.
 
