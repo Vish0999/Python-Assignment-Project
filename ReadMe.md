@@ -31,7 +31,7 @@ It uses object-oriented programming with database connectivity for real-time dat
 This class use for database connection. It is super class.
 
 2) Class Hotel: 
-Class hotel is used to perform all hotel related functionalityv like load_menu(), show_menu(), add_menu_items(), customer_Bill(). 
+Class hotel is used to perform all hotel related functionalityv like load_menu(), show_menu(), add_menu_items(), customer_Bill(), download_bill(). 
 This Class inherit class Database.
 
 3) Class Order :

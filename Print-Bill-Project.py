@@ -81,6 +81,45 @@ class Hotel(Database):
 
 
 
+    def download_bill(self):
+        cust_name = input("Enter customer name to download bill: ").lower()
+        self.cursor.execute(
+                "SELECT menu_name, quantity, price FROM orders WHERE cust_name=?",
+                (cust_name,)
+            )
+        rows = self.cursor.fetchall()
+
+        if not rows:
+                print("No order found for this customer")
+                return
+
+        self.cursor.execute(
+                "SELECT total_amount FROM bill WHERE cust_name=?",
+                (cust_name,)
+            )
+        total = self.cursor.fetchone()[0]
+
+        filename = f"{cust_name}.txt"
+
+        with open(filename, "w") as file:
+                file.write("------ HOTEL BILL ------\n")
+                file.write(f"Customer Name: {cust_name}\n\n")
+                file.write("Menu           Quantity        Price\n")
+                file.write("-" * 45 + "\n")
+
+                for item, qty, price in rows:
+                    file.write(f"{item:<15}{qty:^15}{price:>10}\n")
+
+                file.write("-" * 45 + "\n")
+                file.write(f"{'Total':<30}{total:>10}\n")
+
+        print(f"Bill downloaded successfully as {filename}")
+
+            
+
+
+            
+
 
 
 class Order:
@@ -162,7 +201,8 @@ while True:
 2. Add New Menu
 3. Take Order
 4. print Bill
-5. Exit
+5. Download Bills
+6. Exit
 """)
     ch = input("Enter choice: ")
 
@@ -181,7 +221,10 @@ while True:
         hotel.customer_Bill()
 
     elif ch == "5":
-        break
+        hotel.download_bill()
 
+    elif ch == "6":
+        break
     else:
         print("Invalid Selection !!!!! ")
+        break

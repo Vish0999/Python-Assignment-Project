@@ -1,0 +1,10 @@
+------ HOTEL BILL ------
+Customer Name: vishal
+
+Menu           Quantity        Price
+---------------------------------------------
+chicken               5             1250
+biryani               4              480
+biryani               2              240
+---------------------------------------------
+Total                               1970
