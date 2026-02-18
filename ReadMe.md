@@ -16,7 +16,7 @@ This Project allows users to manage hotel menus, take customer orders,Print Bill
 The system automatically calculates bills and enables printing customer-wise bills from stored data.
 It uses object-oriented programming with database connectivity for real-time data handling.
 
-following are the functionality of Hotel staff and customer
+### functionality of Hotel staff and customer
 
 1. Show Menu
     This function is used to show all menu/items available in database with price 
@@ -24,6 +24,19 @@ following are the functionality of Hotel staff and customer
 3. Take Order
 4. print Bill
 5. Exit
+
+
+### Class include in project :
+1) Class Database :
+This class use for database connection. It is super class.
+
+2) Class Hotel: 
+Class hotel is used to perform all hotel related functionalityv like load_menu(), show_menu(), add_menu_items(), customer_Bill(). 
+This Class inherit class Database.
+
+3) Class Order :
+This class is used for customer order. it is use to perform functionality like take_order(), save_order(), print_bill(),
+
 
 ## Input-Output Screens
 
