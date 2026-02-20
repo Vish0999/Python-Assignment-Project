@@ -1,6 +1,6 @@
 ## **Python Assignment + Project**
 
-#### This repository contains python assignment questions file ( Assignment-Questions.py and List-Comprehsion-lambda.py ) and python project file ( Print-Bill-Project.py ) and python self made project ( College ERP System).
+#### This repository contains python assignment questions file ( Assignment-1.py and Assignment-2.py ) and python project file ( Print-Bill-Project.py ) and python self made project ( College ERP System).
 
 
 

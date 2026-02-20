@@ -1,0 +1,240 @@
+This is College erp project terminal output:
+
+
+SELECT YOUR ROLE
+1) Admin
+2) Teacher
+3) Student
+4) Exam Department
+5) Exit
+
+Choice: 1
+Username: admin
+Password: 123
+Login Successful
+
+1. Add Teacher
+2. Delete Teacher
+3. Update Teacher
+4. Add Exam Dept Member
+5. Delete Exam Dept Member
+6. Update Exam Dept Member
+7. Show All Teachers
+8. Show All Exam Dept Members
+9. Logout
+
+Enter Choice: 1
+Teacher Name: rohit
+Subject: english
+Username: rohit
+Password: 1234
+Teacher Added
+
+1. Add Teacher
+2. Delete Teacher
+3. Update Teacher
+4. Add Exam Dept Member
+5. Delete Exam Dept Member
+6. Update Exam Dept Member
+7. Show All Teachers
+8. Show All Exam Dept Members
+9. Logout
+
+Enter Choice: 2
+Teacher ID: 2
+Teacher Deleted
+
+1. Add Teacher
+2. Delete Teacher
+3. Update Teacher
+4. Add Exam Dept Member
+5. Delete Exam Dept Member
+6. Update Exam Dept Member
+7. Show All Teachers
+8. Show All Exam Dept Members
+9. Logout
+
+Enter Choice: 3
+Teacher ID: 1
+New Subject: marathi
+Teacher Updated
+
+1. Add Teacher
+2. Delete Teacher
+3. Update Teacher
+4. Add Exam Dept Member
+5. Delete Exam Dept Member
+6. Update Exam Dept Member
+7. Show All Teachers
+8. Show All Exam Dept Members
+9. Logout
+
+Enter Choice: 7
+(1, 'vishal', 'marathi')
+
+1. Add Teacher
+2. Delete Teacher
+3. Update Teacher
+4. Add Exam Dept Member
+5. Delete Exam Dept Member
+6. Update Exam Dept Member
+7. Show All Teachers
+8. Show All Exam Dept Members
+9. Logout
+
+Enter Choice: 8
+(1, 'science')
+
+1. Add Teacher
+2. Delete Teacher
+3. Update Teacher
+4. Add Exam Dept Member
+5. Delete Exam Dept Member
+6. Update Exam Dept Member
+7. Show All Teachers
+8. Show All Exam Dept Members
+9. Logout
+
+Enter Choice: 9
+
+SELECT YOUR ROLE
+1) Admin
+2) Teacher
+3) Student
+4) Exam Department
+5) Exit
+
+Choice: 2
+Username: vishal
+Password: 1234
+Login Successful
+
+1. Add Student
+2. Delete Student
+3. Take Attendance
+4. Show All Students
+5. Logout
+
+Choice: 1
+Student Name: omakar
+Username: omkar
+Password: 1234
+Student Added
+
+1. Add Student
+2. Delete Student
+3. Take Attendance
+4. Show All Students
+5. Logout
+
+Choice: 4
+(1, 'pratham')
+(2, 'raj')
+(3, 'omakar')
+
+1. Add Student
+2. Delete Student
+3. Take Attendance
+4. Show All Students
+5. Logout
+
+Choice: 3
+pratham (P/A): p
+raj (P/A): a
+omakar (P/A): p
+Attendance Updated
+
+1. Add Student
+2. Delete Student
+3. Take Attendance
+4. Show All Students
+5. Logout
+
+Choice: 5
+
+SELECT YOUR ROLE
+1) Admin
+2) Teacher
+3) Student
+4) Exam Department
+5) Exit
+
+Choice: 3
+Username: raj
+Password: 1234
+Login Successful
+
+1. Check Attendance
+2. Check Exam Timetable
+3. Logout
+
+Choice: 1
+math - 0.00%
+marathi - 0.00%
+
+1. Check Attendance
+2. Check Exam Timetable
+3. Logout
+
+Choice: 2
+
+Subject      Date        Time       Eligible
+-------------------------------------------------------
+math        2026-02-20   11 AM       NO
+
+1. Check Attendance
+2. Check Exam Timetable
+3. Logout
+
+Choice: 3
+
+SELECT YOUR ROLE
+1) Admin
+2) Teacher
+3) Student
+4) Exam Department
+5) Exit
+
+Choice: 4
+Username: science
+Password: 1234
+Login Successful
+
+1. Add Timetable
+2. Show Timetable
+3. Update Timetable
+4. Delete Timetable
+5. Logout
+
+Choice: 1
+Subject: chem
+Exam Date (YYYY-MM-DD): 2026-02-22
+Exam Time: 11 AM
+Timetable Added
+
+1. Add Timetable
+2. Show Timetable
+3. Update Timetable
+4. Delete Timetable
+5. Logout
+
+Choice: 2
+(1, 'math', datetime.date(2026, 2, 20), '11 AM')
+(2, 'chem', datetime.date(2026, 2, 22), '11 AM')
+
+1. Add Timetable
+2. Show Timetable
+3. Update Timetable
+4. Delete Timetable
+5. Logout
+
+Choice: 5
+
+SELECT YOUR ROLE
+1) Admin
+2) Teacher
+3) Student
+4) Exam Department
+5) Exit
+
+Choice: 5

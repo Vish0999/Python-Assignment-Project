@@ -1,4 +1,6 @@
 import pyodbc
+import sys
+
 
 
 # ================= DATABASE CONNECTION =================
@@ -389,3 +391,5 @@ SELECT YOUR ROLE
 
     elif choice == "5":
         break
+
+
