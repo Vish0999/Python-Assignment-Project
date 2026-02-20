@@ -2,6 +2,12 @@
 
 #### This repository contains python assignment questions file ( Assignment-1.py and Assignment-2.py ) and python project file ( Print-Bill-Project.py ) and python self made project ( College ERP System).
 
+### **Assignment-1.py**
+This file contain 55 python questions related to list, dict, set, functions, lamda, database, file handling.
+
+### **Assignment-2.py**
+This file contain 50 questions related to List comprhension, lamda.
+
 
 
 ## **Project Details :**
